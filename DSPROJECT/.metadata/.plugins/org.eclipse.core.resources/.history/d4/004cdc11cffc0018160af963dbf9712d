@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<table>
+		<tr>
+			<th>Car Hire Booking Service</th>
+		</tr>
+		<tr>
+			<td><a href="/readOrder">Read CarHire</a></td>
+			<td><a href="/readOrder">Create CarHire</a></td>
+			<td><a href="/readOrder">Delete CarHire</a></td>
+			
+			
+			
+			
+		</tr>
+	</table>
+</body>
+</html>

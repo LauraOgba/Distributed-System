@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\laura\OneDrive\Desktop\DSPROJECT\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2372006109.index
+869497924.index
+2547864434.index
+2363289284.index
+3660491024.index
+4048086609.index

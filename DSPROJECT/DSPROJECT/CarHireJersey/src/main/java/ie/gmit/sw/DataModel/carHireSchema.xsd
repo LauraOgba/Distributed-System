@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.example.org/generateSchema"
+	xmlns:tns="http://www.example.org/generateSchema"
+	elementFormDefault="qualified">
+
+	<element name="carhire">
+		<complexType>
+			<sequence>
+				<element name="car_id" type="int"></element>
+				<element name="Customer_id" type="int"></element>
+				<element name="Booking_id" type="int"></element>
+				<element name="TypeOfCar" type="string"></element>
+				<element name="RegNo" type="string"></element>
+				<element name="Price" type="float"></element>
+				<element name="NoOfDays" type="int"></element>			
+			</sequence>
+		</complexType>
+	</element>
+	
+	<element name="booking">
+		<complexType>
+			<sequence>
+				<element name="Booking_id" type="int"></element>
+				<element name="NameOfCar" type="string"></element>
+				<element name="NoOfDays" type="int"></element>
+			</sequence>
+		</complexType>
+	</element>
+	
+	<element name="customer">
+		<complexType>
+			<sequence>
+				<element name="customer_id" type="int"></element>
+				<element name="Name" type="string"></element>
+				<element name="Email" type="string"></element>
+			</sequence>
+		</complexType>
+	</element>
+
+</schema>

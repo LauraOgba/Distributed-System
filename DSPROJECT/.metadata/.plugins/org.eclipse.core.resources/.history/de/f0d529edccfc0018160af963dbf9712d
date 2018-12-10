@@ -1,0 +1,18 @@
+package ie.gmit.sw.Services;
+
+import java.util.List;
+
+import org.springframework.core.annotation.Order;
+import org.springframework.stereotype.Service;
+
+import ie.gmit.sw.DataModel.Carhire;
+
+@Service
+public class ReadService {
+
+	public List<Carhire> getData() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

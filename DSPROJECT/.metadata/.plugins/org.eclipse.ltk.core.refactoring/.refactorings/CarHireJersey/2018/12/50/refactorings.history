@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;ie.gmit.sw.DataModel&apos; to &apos;CarHireWebClient/src/test/java&apos;&#x0D;&#x0A;- Original project: &apos;CarHireJersey&apos;&#x0D;&#x0A;- Destination element: &apos;CarHireWebClient/src/test/java&apos;&#x0D;&#x0A;- Original element: &apos;CarHireJersey/src/main/java/ie.gmit.sw.DataModel&apos;" description="Copy package" destination="=CarHireWebClient/src\/test\/java" element1="/src\/main\/java&lt;ie.gmit.sw.DataModel" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1544478134732" version="1.0"/>
+</session>

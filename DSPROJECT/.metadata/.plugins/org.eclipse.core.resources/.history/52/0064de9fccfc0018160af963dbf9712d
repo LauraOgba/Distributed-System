@@ -1,0 +1,43 @@
+package ie.gmit.sw.Controllers;
+
+import java.io.IOException;
+import java.util.List;
+
+import javax.xml.bind.JAXBException;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.annotation.Order;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import ie.gmit.sw.Services.ReadService;
+
+@Controller
+public class ReadController {
+
+//	readOrder
+
+	@Autowired
+	private ReadService readService;
+
+	// display ships
+	@RequestMapping(value = "/showOrders", method = RequestMethod.GET)
+	public String getShips(Model m) throws IOException, JAXBException {
+
+//		List<Order> orders = (ArrayList<Order>) orderService.getOrder();
+		List<Order> orders = readService.getData;
+
+//		for (Order order : orders) {
+//			System.out.println(order.getOrderID());
+//			System.out.println(order.getCar().toString());
+//			System.out.println(order.getCustomer().toString());
+//		}
+
+		m.addAttribute("orders", orders);
+
+		return "displayorders";
+	}
+
+}
